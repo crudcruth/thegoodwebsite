@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DEADPOOL</title>
+
+    
+    <link href="css/dead.min.css" rel="stylesheet">
+
+    
+    <link href="css/deads.css" rel="stylesheet">
+
+    
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a  class="navbar-brand" href="#page-top">DEADPOOL</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li><li class="page-scroll">
+                        <a style="color:#9a1010;" href="#about">Trailer</a>
+                    </li>
+                    <li  class="page-scroll">
+                        <a style="color:#9a1010;"  href="#portfolio">Cast</a>
+                    </li>
+                    <li  class="page-scroll">
+                        <a style="color:#9a1010;"  href="#intro">Intro</a>
+                    </li>
+                    <li  class="page-scroll">
+                        <a style="color:#9a1010;"  href="#spoiler">Sp....r</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a style="color:#9a1010;" href="#NewsFeed">NewsFeed</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a style="color:#9a1010;" href="#Game">Game</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a style="color:#9a1010;" href="#Quotes">Quotes</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/logo.png" alt="">
+                    <div class="intro-text">
+                        <h2>"Wait 'till I have a load on you"
+                        </h2>
+                        
+                        <h3 style="color:red;"><i></i></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Tesaer Section -->
+    <section  class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Trailer</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+           <center><div id="ytplayer"></div>
+
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '390',
+      width: '640',
+      videoId: 'ZIM1HydF9UA'
+    });
+  }
+</script>
+
+
+</div></center>
+                
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section style="background:black;"  id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="color:#9a1010;">Movie Cast</h2>
+                    <hr></hr>
+                </div>
+            </div>
+            <div  class="row">
+                <div  class="col-sm-4 portfolio-item">
+                    <a  href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i>Ryan Reynolds</i>
+                            </div>
+                        </div>
+                        <img src="img/5.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i>T.J.Miller</i>
+                            </div>
+                        </div>
+                        <img src="img/Erlich-Bachmann-–-HTML-Shirt-–-Silicon-Valley.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i>Stan Lee</i>
+                            </div>
+                        </div>
+                        <img src="img/ant-man-stan-lee.jpg" class="img-responsive" alt="">
+                    </a>
+
+                </div>
+               <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a style="color:#9a1010" href="http://www.imdb.com/title/tt1431045/fullcredits/" class="btn btn-lg btn-outline">
+                         Full Cast
+                    </a>
+                </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="success" id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4>Short INtro to the movie</h4>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Wade Wilson (Ryan Reynolds) is a former Special Forces operative who now works as a mercenary. His world comes crashing down when evil scientist Ajax (Ed Skrein) tortures, disfigures and transforms him into Deadpool. </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>The rogue experiment leaves Deadpool with accelerated healing powers and a twisted sense of humor. With help from mutant allies Colossus and Negasonic Teenage Warhead (Brianna Hildebrand), Deadpool uses his new skills to hunt down the man who nearly destroyed his life</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a style="color:black;" href="https://en.wikipedia.org/wiki/Deadpool_(film)" class="btn btn-lg btn-outline">
+                         Know More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="spoiler">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="color:#9a1010">Spoiler</h2>
+                    <hr></hr>
+               <a href="http://screenrant.com/deadpool-easter-eggs-movie/"><h3>"<i>Reading This you will get spoiled</i>"</h3></a>
+                <center> <img src="img/deadpool-imax-trailer-poster-clip.jpg" width="1000" height="400"></img></center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Newsfeed Section -->
+    <section style="background-color:#9a1010;" id="NewsFeed">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="color:black">Newsfeed</h2>
+                    <hr style="color:black;">
+           <h3><a style="color:black;" href="http://screenrant.com/deadpool-box-office-opening-records/">1)Deadpool Crushes Opening Weekend Box Office & X-Men Records
+
+</a></h3>
+                <div style="box-shadow:19px 12px 100px black;"> <center> <img src="img/Deadpool-Box-Office-Records.jpg" width="1000" height="400";></img></center></div>
+                
+                 <h3><a style="color:black;" href="http://www.independent.co.uk/arts-entertainment/films/news/deadpool-guardians-of-the-galaxy-director-slams-hollywood-for-learning-the-wrong-lessons-from-its-a6876661.html">2)Deadpool: Guardians of the Galaxy director slams Hollywood for learning wrong lessons from its success
+</a></h3><div style="box-shadow:19px 12px 100px black;">
+<center> <img src="img/deadpool-colossus.jpg" width="1000" height="500";></img></center></div>
+
+<h3><a style="color:black;" href="http://www.cinemablend.com/new/Sequel-Mistake-Deadpool-2-Try-Avoid-113137.html">3)The Sequel Mistake Deadpool 2 Will Try To Avoid
+</a></h3><div style="box-shadow:19px 12px 100px black;">
+<center> <img src="img/_1455831225.jpg" width="1000" height="500";></img></center></div>
+
+
+<h3><a style="color:black;" href="http://www.cinemablend.com/new/Deadpool-Really-Did-Have-Major-Connection-Marvel-Avengers-Here-How-113067.html">4)Deadpool Really Did Have A Major Connection To Marvel And The Avengers, Here's How
+</a></h3><div style="box-shadow:19px 12px 100px black;">
+<center> <img src="img/_1455807678.gif" width="1000" height="500";></img></center></div>
+
+<h3><a style="color:black;" href="http://www.cinemablend.com/new/Why-Deadpool-2-Might-Bizarre-Twisted-You-Hope-113057.html">5)
+    Why Deadpool 2 Might Not Be As Bizarre And Twisted As You'd Hope
+</a></h3><div style="box-shadow:19px 12px 100px black;">
+<center> <img src="img/_1455813008.jpg" width="1000" height="500";></img></center></div>
+
+       </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section  id="Game">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="color:#9a1010">Deadpool (Video Game)</h2>
+                    <hr>
+                </div>
+            </div>
+            
+             <center><img src="img/gsmarena_002.jpg" width="1000" height="400"></center>
+              
+               <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a style="color:#9a1010" href="https://1337x.to/torrent/571141/Deadpool-DLC-MULTi2-NEW-RePack-SEYTER/" class="btn btn-lg btn-outline">
+                         Download from here
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- quotes Section -->
+    <section style="background-color:#9a1010;box-shadow:10px 10px 10px black"  id="Quotes">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="color:black">Funniest Quotes</h2>
+                    <hr>
+                </div>
+            </div>
+            <div>
+                <center><img src="img/_1455486533.jpg" width="1000;" height="400;"></img></center>
+                <center>
+                    <h3 style="color:black">1.) "House blowing up builds character."</h3>
+                         <pre style="color:black;box-shadow:1px 2px 30px black;">
+<i>Cool as it may be, Xavier’s School For Gifted Youngsters has a bit of a rough past in the comics and movies – regularly getting invaded and/or blown up. At least Colossus is able to keep a positive attitude about the whole thing, though.</i></pre>
+                        <h3 style="color:black">2.) "Bad Deadpool… Good Deadpool!"</h3>
+                         <pre style="color:black;box-shadow:1px 2px 30px black;"> Possessing only 12 bullets to take down a cadre of armed bad guys, managing to waste a few on a slippery motorcyclist is certainly not Deadpool’s best moment in the movie, but the good news is that he makes up for that mistake fairly quickly with two deadly headshots. </pre>
+
+
+                         <h3 style="color:black">3.) "Whose kitty litter did I just shit in?"</h3>
+                         <pre style="color:black;box-shadow:1px 2px 30px black;">Wade Wilson is exactly the kind of weirdo who would shit in a cat’s litter box just to prove a point… but thanks to the awkward silence that follows the above line, we may never know exactly what went down in that back room before Wade came out to greet the pizza guy.  </pre>
+
+
+                        <h3 style="color:black">4.) "Say the magic words, Fat Gandalf."</h3>
+                         <pre style="color:black;box-shadow:1px 2px 30px black;"> <i>  Deadpool eponymous protagonist certainly gets the best lines in the movie (as you’ll discover continuing to read this piece), but Vanessa certainly get a few brilliant and hilarious moments of her own – such as when she grabs Buck’s nut sack after he slaps her ass. </i>        </pre>
+
+
+
+                          <h3 style="color:black">5.) "Happy Lent."</h3>
+                           <pre style="color:black;box-shadow:1px 2px 30px black;"><i>No other superhero movie has a sex scene that can match the "Calendar Girl" sequence in Deadpool - but as great as every holiday celebration is, the crown has to go to the Wade and Vanessa’s quick stint of abstinence in the middle of the montage.</i></pre>
+
+
+
+                          <h3 style="color:black">6.) "Ever see 127 Hours?"</h3> 
+                          <pre style="color:black;box-shadow:1px 2px 30px black;"><i>Because of his healing powers and general insanity, nobody in the Marvel Universe fights quite like Deadpool. So what does he do when he gets manacled to an X-Man trying to take him in? Of course he saws off his hand and leaves it flipping the bird. 
+</i></pre>
+
+
+
+                           </center>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <hr>
+                        <h3>Made By :</h3>
+                        <p>Gaurav Meena<br><pre><img src="img/gaurav.jpg" width="200px;"  hieght="200px;"></img></pre>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <hr>
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/DeadpoolMovie/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com/deadpoolmovie?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <hr>
+                        <h3>Crictic reviews</h3>
+                        <i>"A scabrously funny big-screen showcase for the snarkiest of Marvels comic-book creations."</i>
+                                          <pre style="color:black;">Justin Chang,Variety</pre><br>
+<i>Deadpool is going to endear a whole new audience to the vivid and weird character, while once again demonstrating the tremendous opportunity for variety in the comic book movie genre.</i>
+<pre style="color:black;">Eric Eisenberg,Cinemablend</pre>
+
+                    </div>
+                 <center>  <div class="navbar-page-scroll">  
+        <a style="color:black;float:right;" class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a></div>
+    
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; deadpool.com
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div  style="background:#9a1010;" class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div  class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>RYAN REYNOLDS</h2>
+                            <hr class="star-primary">
+                            <img src="img/5.jpg" class="img-responsive img-centered" alt="">
+                            <p>Ryan Rodney Reynolds is a Canadian actor and producer. He portrayed Michael Bergen on the ABC sitcom Two Guys and a Girl, Billy Simpson in the YTV Canadian teen soap opera Hillside, as well as Marvel ..<a href="https://en.wikipedia.org/wiki/Ryan_Reynolds">Wikipedia</a></p>
+                            <ul class="list-inline item-details">
+                                
+                                 <li>Born:
+                                    <strong>October 23, 1976(age 39),<a href="https://www.google.co.in/search?q=ryan+reynolds&oq=ryan+reynolds&aqs=chrome..69i57j69i59l3j0l2.3837j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=Vancouver&stick=H4sIAAAAAAAAAOPgE-LUz9U3MDbLSDNR4gAxLQwyjLTEspOt9AtS8wtyUoFUUXF-nlVSflEeAPCPLjEvAAAA">Vancouver, Canada</a>
+                                    </strong>
+                                </li>                            
+                                <li>Upcoming movies:
+                                    <strong><a href="http://www.imdb.com/title/tt3014866/">Criminal</a>,<a href="http://www.imdb.com/title/tt2850386/">The Croods 2</a>
+                                    </strong>
+                                </li>
+                                <li>profile:
+                                    <a style="background-color:black;" href="https://twitter.com/vancityreynolds" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>T.J.Miller</h2>
+                            <hr class="star-primary">
+                            <img src="img/deadpool_comic_wallpaper_by_dantehd-d6g867j-1748x984.jpg" class="img-responsive img-centered" alt="">
+                            <p>Todd Joseph "T. J." Miller is an American actor, voice actor, director and comedian. He currently stars as Erlich Bachman in the HBO sitcom Silicon Valley.<a href="https://en.wikipedia.org/wiki/T._J._Miller">Wikipedia</a>
+</p>
+                            <ul class="list-inline item-details">
+                                <li>Website:
+                                    <strong><a href="http://tjmillerdoesnothaveawebsite.com/">tjmillerdoesnothaveawebsite.com</a>
+                                    </strong>
+                                </li>
+                                <li>Born:
+                                    <strong>June 4, 1981 (age 34),<a href="https://www.google.co.in/search?q=tj+miller&oq=tj+mill&aqs=chrome.0.69i59j69i57j0l4.2239j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=Denver&stick=H4sIAAAAAAAAAOPgE-LSz9U3ME4uNMrKUOIAsY2Scwy1xLKTrfQLUvMLclKBVFFxfp5VUn5RHgCnNVZzMAAAAA">Denver,Colorado, United States</a>
+                                    </strong>
+                                </li>
+                                <li>Awards:
+                                    <strong><a href="https://www.google.co.in/search?q=tj+miller&oq=tj+mill&aqs=chrome.0.69i59j69i57j0l4.2239j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=Best+Supporting+Actor+in+a+Comedy+Series&stick=H4sIAAAAAAAAAOPgE-LSz9U3ME4uNMrKUAKzsw0qkozztGSzk630E8sTi1IgZHx5Zl5eapEVmFMMAIl8iRQ5AAAA">Critics' Choice Television Award for Best Supporting Actor in a Comedy Series</a>
+                                    </strong>
+                                </li>
+                               <li>Albums:
+                                <strong>
+                               <a href="https://www.google.co.in/search?q=tj+miller&oq=tj+mill&aqs=chrome.0.69i59j69i57j0l4.2239j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=T.J.+Miller+The+Extended+Play+EP&stick=H4sIAAAAAAAAAOPgE-LSz9U3ME4uNMrKUOLVT9c3NEwqN06xsEgr0xLPTrbSzy0tzkzWTywqySwusUrMSSrNLQYAZadG-TYAAAA"> The Extended Play EP</a>, <a href="https://www.google.co.in/search?q=tj+miller&oq=tj+mill&aqs=chrome.0.69i59j69i57j0l4.2239j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=Still+Remains+Of+Love+and+Lunacy&stick=H4sIAAAAAAAAAOPgE-LSz9U3ME4uNMrKUAKzjQrTjNKNtcSzk630c0uLM5P1E4tKMotLrBJzkkpziwHAQqrjMwAAAA">Of Love and Lunacy</a>, <a href="https://www.google.co.in/search?q=tj+miller&oq=tj+mill&aqs=chrome.0.69i59j69i57j0l4.2239j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=Still+Remains+The+Serpent&stick=H4sIAAAAAAAAAOPgE-LSz9U3ME4uNMrKUIKws7KTk020xLOTrfRzS4szk_UTi0oyi0usEnOSSnOLAbOo1LUzAAAA">The Serpent</a>,<a href="https://www.google.co.in/search?q=tj+miller&oq=tj+mill&aqs=chrome.0.69i59j69i57j0l4.2239j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=Still+Remains+If+Love+Was+Born+to+Die&stick=H4sIAAAAAAAAAOPgE-LSz9U3ME4uNMrKUAKzjQrTjCxytcSzk630c0uLM5P1E4tKMotLrBJzkkpziwHaHlULMwAAAA"> If Love Was Born to Die</a>
+                           </strong>
+                           </li>
+                            <li>profile:
+                                    <a style="background-color:black;" href="https://twitter.com/nottjmiller" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>StAn Lee</h2>
+                            <hr class="star-primary">
+                            <img src="img/ant-man-stan-lee.jpg" class="img-responsive img-centered" alt="">
+                            <p>Stan Lee is an American comic book writer, editor, publisher, media producer, television host, actor and former president and chairman of Marvel Comics.<a href="https://en.wikipedia.org/wiki/Stan_Lee"> Wikipedia</a></p>
+                            <ul class="list-inline item-details">
+                                <li>website:
+                                    <strong><a href="http://therealstanlee.com/"> therealstanlee.com</a>
+                                    </strong>
+                                </li>
+                                <li>Born:
+                                    <strong> December 28, 1922 (age 93),<a href="https://www.google.co.in/search?q=stan+lee&oq=stan+lee&aqs=chrome.0.69i59j69i60j0l4.2002j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=Manhattan&stick=H4sIAAAAAAAAAOPgE-LQz9U3MLcsS1MCs5KTTc20xLKTrfQLUvMLclKBVFFxfp5VUn5RHgARq7lNLgAAAA">Manhattan, United States</a>
+                                    </strong>
+                                </li>
+                                <li>Books:
+                                    <strong><a href="https://www.google.co.in/search?q=stan+lee&oq=stan+&aqs=chrome.0.69i59j69i57j69i61j0l3.1672j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=How+to+Draw+Comics+the+Marvel+Way&stick=H4sIAAAAAAAAAOPgE-LQz9U3MLcsS1PiArEyqnLL07K0pLKTrfST8vOz9RNLSzLyi6xA7GKF_LycSgAEIK5MNAAAAA">How to Draw Comics the Marvel Way</a>,<a href="https://www.google.co.in/search?q=stan+lee&oq=stan+&aqs=chrome.0.69i59j69i57j69i61j0l3.1672j1j7&sourceid=chrome&es_sm=122&ie=UTF-8#q=stan+lee+books&stick=H4sIAAAAAAAAAOPgE-LQz9U3MLcsS9OSyk620k_Kz8_WTywtycgvsgKxixXy83IqARO5cWUoAAAA"> more</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    
+    <script src="js/DEad.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    
+
+    
+
+
+    <script src="js/1.js"></script>
+
+</body>
+
+</html>
